@@ -126,7 +126,7 @@ public class PersonListActivity extends AppCompatActivity {
                         Context context = v.getContext();
                         Intent intent = new Intent(context, PersonDetailActivity.class);
                         intent.putExtra(PersonDetailFragment.ARG_ITEM_ID, holder.mItem.id);
-
+                        //before start of activity
                         context.startActivity(intent);
                     }
                 }
